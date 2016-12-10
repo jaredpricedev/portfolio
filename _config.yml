@@ -1,6 +1,13 @@
 # Site settings
-title: Site Title
+title: Jared Price
+url: "http://www.jaredprice.net" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# COLLECTIONS
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/

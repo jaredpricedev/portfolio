@@ -2,9 +2,19 @@
 layout: default
 ---
 
+
+<h1>Projects</h1>
+{% for project in site.portfolio %}
+	<img src="{{project.thumbnail-path}}" alt="{{project.title}}" class="index-image">
+	<h2><a href="{{ site.baseurl }}{{ project.url }}">{{project.title}}</a></h2>
+	<p>{{ project.short-description }}</p>
+{% endfor %}
+
+
+<h1>Posts</h1>
 {% for post in site.posts %}
 	<article>
-		<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+		<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 		<p>{{ post.date | date: "%b %-d, %Y" }}</p>
 		{{ post.content }}
 	</article>
