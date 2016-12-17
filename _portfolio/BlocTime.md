@@ -10,25 +10,23 @@ short-description: BlocTime helps you stay focused on what you need to do!
 ![]({{ site.baseurl }}/img/bloctime.png)
 
 # Explanation
-
 This application is the first solo project of my Bloc Frontend. The goal of a Pomodoro Technique is to increase the productivity of the user by having them focus for 25 minutes. During the time they are not allowed to do anything other than the task at hand.
 
 The app stack consists of AngularJS, Firebase and Angular Material. Assistance by my Bloc mentor.  
 
 # The Goals
-
-
 This project was split up into eight different checkpoints, and for brevity, I've combined into four different sections.
+
 ### 1. The Timer
-
-
-
+Showing a timer on the page and updating it live.
 
 ### 2. Taking a break
 The primary purpose of the application is to keep track of the time as well as showing it to the end user.
 When the timer has been completed the user will be allowed a 5-minute break, and after four completed Pomodoros it turns into a 30-minute break.
+
 ### 3. Playing a ding
 Since the user will be busy doing other things on the computer having a ding play will help them know when to stop or start working.
+
 ### 4. Todo items with Firebase
 Keeping track of the items completed.
 
