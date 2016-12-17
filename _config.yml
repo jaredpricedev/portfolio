@@ -11,3 +11,7 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
+
+# GEMS
+gems:
+  - jekyll-gist
