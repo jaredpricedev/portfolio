@@ -7,7 +7,7 @@ short-description: BlocTime helps you stay focused on what you need to do!
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/bloctime.png)
+![](/img/bloctime.png)
 
 # Explanation
 This application is the first solo project of my Bloc Frontend. The goal of a Pomodoro Technique is to increase the productivity of the user by having them focus for 25 minutes. During the time they are not allowed to do anything other than the task at hand.
