@@ -14,7 +14,25 @@ html {
 	html {
 		font-size: 20px;
 	}
+  .nav ul li {
+    display: inline-block;
+  }
 }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    .title {
+    	font-size: 2rem;
+      padding-left: 10px;
+    }
+    .nav ul li {
+      margin-bottom: -35px;
+      font-weight: bold;
+      margin-left: 10px;
+      font-size: 1.5rem;
+    }
 body {
 	font-size: 1em;
 	line-height: 1.35;
@@ -118,14 +136,13 @@ hr {
 }
 .nav ul li {
 	margin-right: 20px;
-	display: inline-block;
 }
 .title {
 	display: inline-block;
 	font-size: 4rem;
 }
 .nav img {
-	width: 200px;
+	width: 30%;
 	border-radius: 50%;
 	display:inline-block
 	float: left;
@@ -142,18 +159,17 @@ hr {
 	width: 50%;
 	height: 50%;
 }
-.index-projects {
-	width: 49%;
-	float: left;
-}
-.index-blog {
-	width: 49%;
-	float: left;
+.pull-right {
 	text-align: right;
 }
 
-
-
+.col-6 {
+	width: 50%;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
 /*
  * Footer
  */
