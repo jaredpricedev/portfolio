@@ -1,8 +1,11 @@
 <nav class="nav">
-	<ul>
-		<li><a href="/">{{ site.title }}</a></li>
-		{% for page in site.pages %}
-		<li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
-		{% endfor %}
-	</ul>
+	<div class="center">
+		<h1 class="title"><a href="/">{{ site.title }}</a></h1>
+		<img src="/img/profile.jpg" alt="Jared Price">
+		<ul>
+			{% for page in site.pages %}
+			<li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
 </nav>
