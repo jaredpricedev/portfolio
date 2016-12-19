@@ -136,6 +136,9 @@ hr {
 }
 .nav ul li {
 	margin-right: 20px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  cursor: hand; 
 }
 .title {
 	display: inline-block;
@@ -147,8 +150,6 @@ hr {
 	display:inline-block
 	float: left;
 }
-
-
 
 /*
  * Portfolio
