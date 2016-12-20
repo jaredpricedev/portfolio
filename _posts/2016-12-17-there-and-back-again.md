@@ -3,16 +3,18 @@ layout: post
 title: There and Back Again
 ---
 
-# My Web Developers Story
-
-I was working at Barnes and Noble, which allowed me to be surrounded by new things regularly. In my course of cleaning up the store, I found myself lingering more and more at the technology section. After glancing over Jon Duckett's beautiful  books and a couple more I have forgetten, I was hit a realization I need to start a career in web development.
+## the start
+Ever since I was a child, I have had an interest in programming and computers. I have books on Microsoft Basic and Gamemaker but I never really had anyone to hold my hand and teach me all the fundamentals programming. After I had graduated high school I decided to take a year off before I went to college, that year, unfortunately, turned into several years. One day, while working at Barnes & Noble I found myself loitering in the programming section thinking about all the times I tried to learn to program before.
 ![](https://media.giphy.com/media/I1U9DTjCqOF3i/giphy.gif)
-After hours of googling, I finally found Bloc and what made it sound out to me was the guidance of a mentor. While I seriously considered using FreeCodeCamp, I knew I needed someone to keep my on the straight path and encourage me when I needed it.
+Something clicked this time, and I knew it was time to start a career and get serious about my future. After hours of searching Google, I came across Bloc and was impressed with their mentor approach. There are plenty of amazing free programs out there (FreeCodeCamp, The Odin Project) but I knew I needed someone to help me this time.  It was just the thing that I was missing from my childhood.
 
-## The Backend
-
-Since I wanted this to be a full career change, I decided to go with the full-stack program. With my natural technical aptitude, things started off pretty well but quickly ran into a snag once that harder concepts started. I struggled to believe I had the ability to understand everything that is needed to be a programmer.
+## backend
+I decided to go with the full stack program, and in that program, you start with the back end. As with most people I started out very strongly and full of confidence but when the rubber started to meet the road my confidence quickly evaporated. Overwhelmed by my sense of urgency to get out of retail and started on my journey I quickly push myself too hard and burned out. What was meant to be a two-week period where I could collect my thoughts and start anew turned into a five-month span of me not coding at all.  
 ![](https://media.giphy.com/media/3o6wrebnKWmvx4ZBio/giphy.gif)
-With this stress at work, home, and the rut, I was stuck in with Rails I decided to pause my enrollment for two weeks. Unfortunately, two weeks turned into five months of not programming, which of course hurt my confidence and learning.  There were thoughts I might not start up again, but my mother was adamant that I stay the course. I was able to start back up, blast through the Rails projects and develop a deep love for Rails and Ruby.
+After several things in my life had settled down I was finally able to come back to bloc with a renewed vigor and determination to become the best programmer I could be. In the two months from coming back, I finished the rails course very strongly end with help from my amazing mentors regain my confidence to tackle the last half of my full stack course.
 
-## The Frontend
+## frontend
+Everything has been steady on this half of the program, and I'm pleased with my progress. Javascript was very intimidating at first and took awhile to get those semicolons right. I feel like I've started to grow in my confidence has increased by leaps and bounds. There's plenty left for me to understand and I'm excited to tackle it! As I'm writing this, I still have one Capstone project left in my front end course. While coming up with a Capstone project I've been coding a little bit everyday so I can keep sharp.
+
+While this part of my journey is wrapping up, a whole new adventure is opening up before me and I can't wait!
+![](https://media.giphy.com/media/HVr4gFHYIqeti/giphy.gif)
