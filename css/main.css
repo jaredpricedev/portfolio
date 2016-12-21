@@ -54,11 +54,6 @@ img {
   }
 }
 
-.link {
-  fill: blue;
-}
-
-
 /*
  * The Grid
  */
@@ -72,8 +67,7 @@ img {
 }
 .center {
 	max-width: 650px;
-	margin-right: auto;
-  margin-left: auto;
+	margin: 0 auto;
 }
 @media(min-width: 768px) {
   .col-6 {
@@ -197,10 +191,26 @@ footer {
 	bottom:0px;
   left:0px;
   right:0px;
-  margin-bottom:0px;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: inline;
+}
+footer ul li {
+  display: inline;
+}
+.social-icons {
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
+  fill: white;
 }
 footer p {
 	margin-top: 10px;
 	text-shadow: 2px;
 	color: white;
+  display: inline;
+  padding-left: 50px;
 }
