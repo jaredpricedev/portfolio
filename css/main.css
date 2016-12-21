@@ -48,6 +48,16 @@ img {
 	border-radius: 3px;
   vertical-align: middle;
 }
+@media (min-width: 768px) {
+  .pull-right-md {
+  	text-align: right;
+  }
+}
+
+.link {
+  fill: blue;
+}
+
 
 /*
  * The Grid
@@ -56,7 +66,7 @@ img {
 .container {
   padding-left: 20px;
   padding-right: 20px;
-  max-width: 65%;
+  max-width: 980px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -65,6 +75,16 @@ img {
 	margin-right: auto;
   margin-left: auto;
 }
+@media(min-width: 768px) {
+  .col-6 {
+  	width: 50%;
+  }
+  [class*="col-"] {
+      float: left;
+      padding: 15px;
+  }
+}
+
 
 /*
  * Typography
@@ -138,11 +158,16 @@ hr {
 	margin-right: 20px;
   font-size: 1.25rem;
   cursor: pointer;
-  cursor: hand; 
+  cursor: hand;
 }
 .title {
 	display: inline-block;
-	font-size: 4rem;
+	font-size: 3rem;
+}
+@media(min-width: 768px) {
+  .title {
+    font-size: 4rem;
+  }
 }
 .nav img {
 	width: 30%;
@@ -160,17 +185,7 @@ hr {
 	width: 50%;
 	height: 50%;
 }
-.pull-right {
-	text-align: right;
-}
 
-.col-6 {
-	width: 50%;
-}
-[class*="col-"] {
-    float: left;
-    padding: 15px;
-}
 /*
  * Footer
  */
