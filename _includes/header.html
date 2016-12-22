@@ -1,11 +1,17 @@
 <nav class="nav">
-	<div class="center">
-		<h1 class="title"><a href="/">{{ site.title }}</a></h1>
-		<img src="{{ site.baseurl }}/img/profile.png" alt="Jared Price">
-		<ul>
-			{% for page in site.pages %}
-			<li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
-			{% endfor %}
-		</ul>
-	</div>
+    <div class="center">
+        <h1 class="title">
+            <a href="/">{{ site.title }}</a>
+        </h1>
+        <img src="{{ site.baseurl }}/img/profile.png" alt="Jared Price">
+        <ul>
+            {% for page in site.pages %}
+                {% if page.menu == 'main' %}
+                    <li>
+                        <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
 </nav>

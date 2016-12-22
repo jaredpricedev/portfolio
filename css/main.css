@@ -27,12 +27,12 @@ html {
     padding-left: 10px;
   }
   .nav ul li {
-    margin-bottom: -35px;
     font-weight: bold;
-    margin-left: 10px;
     font-size: 1.5rem;
+    display: inline;
   }
 }
+
 body {
 	font-size: 1em;
 	line-height: 1.35;
@@ -66,7 +66,7 @@ img {
   margin-left: auto;
 }
 .center {
-	max-width: 650px;
+	max-width: 800px;
 	margin: 0 auto;
 }
 @media(min-width: 768px) {
@@ -149,7 +149,7 @@ hr {
 	display: inline-block;
 }
 .nav ul li {
-	margin-right: 20px;
+	margin: 10px;
   font-size: 1.25rem;
   cursor: pointer;
   cursor: hand;
@@ -166,8 +166,7 @@ hr {
 .nav img {
 	width: 30%;
 	border-radius: 50%;
-	display:inline-block
-	float: left;
+	display:inline-block;
 }
 
 /*
@@ -192,6 +191,9 @@ footer {
   left:0px;
   right:0px;
 }
+.footer-text {
+  text-align: center;
+}
 footer ul {
   margin: 0;
   padding: 0;
@@ -207,10 +209,36 @@ footer ul li {
   margin-top: 10px;
   fill: white;
 }
+@media (max-width: 550px){
+  .social-icons {
+    display: none;
+  }
+  footer p {
+    display: block !important;
+    padding-left: 0px !important;
+    text-align: center;
+  }
+}
 footer p {
 	margin-top: 10px;
 	text-shadow: 2px;
 	color: white;
   display: inline;
   padding-left: 50px;
+}
+
+
+/*
+ * Contact
+*/
+form input {
+  display: block;
+  padding: 5px;
+  margin: 5px;
+}
+form textarea {
+  margin: 5px;
+  box-sizing: border-box;
+  width: 50%;
+  height: 50%;
 }
