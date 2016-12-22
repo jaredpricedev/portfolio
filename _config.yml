@@ -12,6 +12,9 @@ collections:
     output: true
     permalink: /portfolio/:path/
 
+#Google Services
+google_analytics: UA-89349258-1
+
 # GEMS
 gems:
   - jekyll-gist
