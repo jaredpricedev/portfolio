@@ -4,7 +4,6 @@ layout: default
 
 	<article>
   	<h1>{{ page.title }}</h1>
-		<h4># of words: {{content | number_of_words}}</h2>
-  	<p>{{ page.date | date: "%b %-d, %Y" }}</p>
+  	<p>{{ page.date | date: "%b %-d, %Y" }} - # of words: {{content | number_of_words}}</p>
  	 	{{ content }}
   </article>

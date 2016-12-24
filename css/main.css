@@ -32,6 +32,14 @@ html {
     display: inline;
   }
 }
+@media (max-width: 475px) {
+  .nav img {
+    display: none !important;
+  }
+  .nav ul {
+    display: block !important;
+  }
+}
 
 body {
 	font-size: 1em;
@@ -47,6 +55,13 @@ img {
 	height: auto;
 	border-radius: 3px;
   vertical-align: middle;
+}
+.padding {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.img-m{
+	width: 75%;
 }
 @media (min-width: 768px) {
   .pull-right-md {
@@ -168,7 +183,6 @@ hr {
 	border-radius: 50%;
 	display:inline-block;
 }
-
 /*
  * Portfolio
  */

@@ -7,7 +7,7 @@ short-description: BlocTime helps you stay focused on what you need to do!
 ---
 
 {:.center}
-![](/img/bloctime.png)
+![](/img/bloctime.png){: class="padding"}
 
 # Explanation
 This application is the first solo project of my Bloc Frontend. The goal of a Pomodoro Technique is to increase the productivity of the user by having them focus for 25 minutes. During the time they are not allowed to do anything other than the task at hand.
@@ -32,7 +32,7 @@ Keeping track of the items completed.
 
 # Setting and Showing the Timer
 Staring at a blank screen I know I need a number and a button to be the core framework to my application.
-![](/img/bloctime-timer.png)
+![](/img/bloctime-timer.png){: class="padding"}
 
 {% gist 69ccb5defb2f48a2b2e00edb65c8fb7e %}
 
