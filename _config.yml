@@ -1,5 +1,6 @@
 # Site settings
 title: Jared Price
+description: Portfolio and blog of web developer Jared Price.
 url: "http://www.jaredprice.net" # the base hostname & protocol for your site
 
 # Build settings
@@ -14,7 +15,9 @@ collections:
 
 #Google Services
 google_analytics: UA-89349258-1
+google_site_verification: wahyfao2IGPPk0FsrpyhK2549W1UPiUzbiRAxxzJZh4
 
 # GEMS
 gems:
   - jekyll-gist
+  - jekyll-seo-tag
