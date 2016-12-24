@@ -21,3 +21,4 @@ google_site_verification: wahyfao2IGPPk0FsrpyhK2549W1UPiUzbiRAxxzJZh4
 gems:
   - jekyll-gist
   - jekyll-seo-tag
+  - jekyll-sitemap
