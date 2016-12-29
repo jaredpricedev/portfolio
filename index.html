@@ -5,7 +5,7 @@ layout: default
 <div class="row">
 	<div class="col-6">
 		<h1>Projects</h1>
-		{% for project in site.portfolio limit:1 %}
+		{% for project in site.portfolio limit:2 %}
 			<img src="{{project.thumbnail-path}}" alt="{{project.title}}" class="index-image">
 			<h2><a href="{{ site.baseurl }}{{ project.url }}">{{project.title}}</a></h2>
 			<p>{{ project.short-description }}</p>
