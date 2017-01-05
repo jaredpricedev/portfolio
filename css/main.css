@@ -39,6 +39,9 @@ html {
   .nav ul {
     display: block !important;
   }
+	.nav ul li {
+		font-size: 2rem !important;
+	}
 }
 
 body {

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: New Year, New Career?
+excerpt: I just launched this site, so I'm sure this "Merry Christmas" will go out to an empty crowd, but it still feels like the right thing to do.
 ---
 
 I just launched this site, so I'm sure this "Merry Christmas" will go out to an empty crowd, but it still feels like the right thing to do. After all the wrapping paper is packed into giant bags, and you're bored with your latest toy comes the New Year and a chance to start fresh. At least that feeling lasts about one week and dissipates as quickly as your love of Christmas trinkets.

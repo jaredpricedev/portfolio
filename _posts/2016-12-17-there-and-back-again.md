@@ -1,6 +1,7 @@
 ---
 layout: post
 title: There and Back Again
+excerpt: Ever since I was a child, I have had an interest in programming and computers. I have books on Microsoft Basic and Gamemaker but I never really had anyone to hold my hand and teach me all the fundamentals programming.
 ---
 
 ## the start
