@@ -82,6 +82,7 @@ img {
   max-width: 980px;
   margin-right: auto;
   margin-left: auto;
+	min-height: 500px;
 }
 .center {
 	max-width: 800px;
