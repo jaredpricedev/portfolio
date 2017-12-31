@@ -18,12 +18,11 @@ google_analytics: UA-89349258-1
 google_site_verification: wahyfao2IGPPk0FsrpyhK2549W1UPiUzbiRAxxzJZh4
 
 # GEMS
-gems:
+plugins:
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-minifier
 
 jekyll-minifier:
-  compress_css: true
-    
+  compress_css: true  
