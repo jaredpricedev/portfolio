@@ -3,11 +3,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title>{% if page.title %}{{ page.title}} | {% endif %}{{ site.title }}</title>
+  <style type="text/css">
+    {% include main.css %}
+    {% include normalize.css %}
+  </style>
 
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
   <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet">
   {% if jekyll.environment == 'production' %}
     {% include analytics.html %}
   {% endif %}
