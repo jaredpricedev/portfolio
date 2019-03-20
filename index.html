@@ -14,7 +14,7 @@ layout: default
 	{% assign posts = site.posts | sort: 'date' %}
 	<div class="col-6 pull-right-md">
 		<h1><a href="{{ site.baseurl }}/posts">Posts</a></h1>
-		{% for post in (posts | sort: 'date' | reverse) limit:3 %}
+		{% for post in posts | sort: 'date' | reverse | limit:3 %}
 			<article>
 				<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 				<p>{{ post.date | date: "%b %-d, %Y" }}</p>
