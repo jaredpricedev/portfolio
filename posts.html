@@ -2,7 +2,7 @@
 layout: page
 title: Posts
 ---
-{% assign posts = site.posts | sort: 'date' %}
+{% assign posts = site.posts | sort: 'date' | reverse %}
 {% for post in posts %}
   <article>
     <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
